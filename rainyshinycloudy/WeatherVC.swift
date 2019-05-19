@@ -78,7 +78,7 @@ class WeatherVC: UIViewController , UITableViewDelegate ,UITableViewDataSource ,
             
         }else{
             locationManager.requestWhenInUseAuthorization()
-            locationAuthStatus()
+//             locationAuthStatus()
         }
     }
     
